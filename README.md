@@ -15,11 +15,17 @@
 
 ## 仓库内容
 
-### 1 从零开始的大语言模型
+### 1. 从零开始的大语言模型
 
-### 2 大语言模型不同架构的对比
+TODO List:
+- [ ] 数据集的搜集、清洗与构建。
+- [ ] 任务的确定与模型的构建。
+- [ ] 模型训练。
+- [ ] 任务选择与模型评估。
 
-### 3 底层语言实现大语言模型
+### 2. 大语言模型不同架构的对比
+
+### 3. 底层语言实现大语言模型
 
 
 
@@ -30,6 +36,7 @@
     - [charent/ChatLM-mini-Chinese](https://github.com/charent/ChatLM-mini-Chinese/)
     - [Tongjilibo/build_MiniLLM_from_scratch](https://github.com/Tongjilibo/build_MiniLLM_from_scratch)
     - [zhanshijinwat/Steel-LLM](https://github.com/zhanshijinwat/Steel-LLM)
+    - (欢迎添加)...
 
 2. 大语言模型经典技术\[暂定\]：
     - OPT
@@ -41,7 +48,8 @@
     - DeepSeek(MOE)
     - ......
 
-3. 底层大语言模型仓库：
+3. 底层语言大语言模型仓库：
     - [karpathy/llama2.c](https://github.com/karpathy/llama2.c)
     - [abetlen/llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
     - [li-plus/chatglm.cpp](https://github.com/li-plus/chatglm.cpp)
+    - ...
