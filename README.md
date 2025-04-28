@@ -20,25 +20,35 @@
 TODO List:
 - [ ] 数据集的搜集、清洗与构建。
 - [ ] 任务的确定与模型的构建。
-- [ ] 模型训练。
-- [ ] 任务选择与模型评估。
+- [ ] 训练框架确定与模型训练。
+- [ ] 模型评估。
 
 ### 2. 大语言模型不同架构的对比
 
-### 3. 底层语言实现大语言模型
+比较不同的大语言模型架构之间所带来的性能上的差异与偏好。
 
+### 3. 大语言模型推理
+
+通过推理层面的优化，使得大语言模型能够更小且更快的方式进行推理计算。
 
 
 ## 参考资料
 1. 参数较小的大语言模型仓库：
-    - [DLLXW/baby-llama2-chinese](https://github.com/DLLXW/baby-llama2-chinese)
-    - [charent/Phi2-mini-Chinese](https://github.com/charent/Phi2-mini-Chinese)
-    - [charent/ChatLM-mini-Chinese](https://github.com/charent/ChatLM-mini-Chinese/)
-    - [Tongjilibo/build_MiniLLM_from_scratch](https://github.com/Tongjilibo/build_MiniLLM_from_scratch)
-    - [zhanshijinwat/Steel-LLM](https://github.com/zhanshijinwat/Steel-LLM)
+    - [DLLXW/baby-llama2-chinese](https://github.com/DLLXW/baby-llama2-chinese) 
+      - 参数量：500M-1B, 记录更新时间：2024-05-21
+    - [charent/Phi2-mini-Chinese](https://github.com/charent/Phi2-mini-Chinese) 
+      - 参数量：200M, 记录更新时间：2024-07-11
+    - [charent/ChatLM-mini-Chinese](https://github.com/charent/ChatLM-mini-Chinese/) 
+      - 参数量：200M, 记录更新时间：2024-04-20
+    - [Tongjilibo/build_MiniLLM_from_scratch](https://github.com/Tongjilibo/build_MiniLLM_from_scratch) 
+      - 参数量：200M, 记录更新时间：2025-03-23
+    - [zhanshijinwat/Steel-LLM](https://github.com/zhanshijinwat/Steel-LLM) 
+      - 参数量：1B, 记录更新时间：2025-04-27
+    - [jingyaogong/minimind](https://github.com/jingyaogong/minimind) 
+      - 参数量：26M，记录更新时间：2025-04-27
     - (欢迎添加)...
 
-2. 大语言模型经典技术\[暂定\]：
+2. 大语言模型经典架构：
     - OPT
     - BERT
     - T5
