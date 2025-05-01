@@ -34,6 +34,8 @@ TODO List:
 
 ## 参考资料
 1. 参数较小的大语言模型仓库：
+    - [jzhang38/TinyLlama](https://github.com/jzhang38/TinyLlama)
+      - 参数量：1.1B，记录更新时间：2024-02-04
     - [DLLXW/baby-llama2-chinese](https://github.com/DLLXW/baby-llama2-chinese) 
       - 参数量：500M-1B, 记录更新时间：2024-05-21
     - [charent/Phi2-mini-Chinese](https://github.com/charent/Phi2-mini-Chinese) 

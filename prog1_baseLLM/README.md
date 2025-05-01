@@ -12,5 +12,4 @@
 
 
 ## 参考资料
-1. [zhanshijinwat/Steel-LLM](https://github.com/zhanshijinwat/Steel-LLM)
-2. [Build a Large Language Model (From Scratch)](https://github.com/rasbt/LLMs-from-scratch)
+1. [Build a Large Language Model (From Scratch)](https://github.com/rasbt/LLMs-from-scratch)
