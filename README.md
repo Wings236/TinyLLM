@@ -40,12 +40,8 @@ TODO List:
       - 参数量：500M-1B, 记录更新时间：2024-05-21
     - [charent/Phi2-mini-Chinese](https://github.com/charent/Phi2-mini-Chinese) 
       - 参数量：200M, 记录更新时间：2024-07-11
-    - [charent/ChatLM-mini-Chinese](https://github.com/charent/ChatLM-mini-Chinese/) 
-      - 参数量：200M, 记录更新时间：2024-04-20
     - [Tongjilibo/build_MiniLLM_from_scratch](https://github.com/Tongjilibo/build_MiniLLM_from_scratch) 
       - 参数量：200M, 记录更新时间：2025-03-23
-    - [zhanshijinwat/Steel-LLM](https://github.com/zhanshijinwat/Steel-LLM) 
-      - 参数量：1B, 记录更新时间：2025-04-27
     - [jingyaogong/minimind](https://github.com/jingyaogong/minimind) 
       - 参数量：26M，记录更新时间：2025-04-27
     - (欢迎添加)...
@@ -57,7 +53,8 @@ TODO List:
     - Llama
     - ChatGLM
     - Qwen
-    - DeepSeek(MOE)
+    - DeepSeek
+    - MOE
     - ......
 
 3. 底层语言大语言模型仓库：
