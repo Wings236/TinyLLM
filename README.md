@@ -55,10 +55,16 @@ TODO List:
     - Qwen
     - DeepSeek
     - MOE
-    - ......
+    - NSA
+    - ...
 
 3. 底层语言大语言模型仓库：
     - [karpathy/llama2.c](https://github.com/karpathy/llama2.c)
     - [abetlen/llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
     - [li-plus/chatglm.cpp](https://github.com/li-plus/chatglm.cpp)
     - ...
+  
+4. 从零开始构建大语言模型：
+   - [stanford-CS336](https://github.com/stanford-cs336)
+   - [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
+   - [LLMs-from-scratch_中文版](https://github.com/skindhu/Build-A-Large-Language-Model-CN)
