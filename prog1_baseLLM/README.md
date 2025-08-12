@@ -13,3 +13,4 @@
 
 ## 参考资料
 1. [Build a Large Language Model (From Scratch)](https://github.com/rasbt/LLMs-from-scratch)
+2. [Stanford CS336 | Language Modeling from Scratch](https://github.com/stanford-cs336)
