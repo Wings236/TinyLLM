@@ -1,17 +1,20 @@
 # TinyLLM
 
-## 仓库介绍
-本项目主要针对计算性能较弱、内存较少的环境进行训练、微调、部署大语言模型。首先通过从零开始构建大语言模型了解大语言模型的相关发展，并评估相关性能；其次，通过以更底层的语言如C、CPP在计算性能较弱的环境下部署大语言模型。最后，在真实场景下部署并测试大语言模型。
+## 项目介绍
+本项目扎根于计算资源有限的前提下去思考大语言模型的种种环节，包括大语言模型的生产(数据集搜集、模型搭建、模型训练等)和大语言模型的部署(模型量化，剪枝，蒸馏等加速推理、基于硬件设备的底层计算优化)。对大语言模型的性能进行测评，包括输出性能和计算性能。
 
+本项目主要有以下几个模块：
+- 大语言模型生产模块：了解、熟悉大语言模型，包括数据采集，模型结构搭建，模型训练等，训练大语言模型。
 
-本项目主要以下几个目的：
-- 了解、熟悉大语言模型，并能够从零预训练和微调出能够使用的大语言模型（一般为中英文）。
+- 大语言模型评估模块：熟悉评估大语言模型，通过评估指标了解大语言模型的相关性能，包括推理性能和计算性能，另一方面，也通过评估指标看到不同架构的大语言模型的性能差异。
 
-- 熟悉如何评估大语言模型，通过评估指标熟悉大语言的相关性能。
+- 大语言模型推理模块：一方面通过对模型进行量化、剪枝和蒸馏方式在保持或略微减少性能的基础上压缩模型大小，加速推理；另一方面，利用底层语言如ONNX、TensorRT、C/C++等技术对大语言模型针对性优化，使其能够加速推理。
 
-- 通过评估指标，比较不同的模型参数，模型框架所带来的性能差异，深入理解相关架构带来的好处。
+## 项目计划计划
 
-- 利用底层语言如C、C++等方式实现部署代码，使其能够在计算性能更弱的环境下部署运行。
+1. 大语言模型的生产
+2. 大语言模型的评估
+3. 大语言模型的部署与推理
 
 ## 仓库内容
 
@@ -36,15 +39,14 @@ TODO List:
 1. 参数较小的大语言模型仓库：
     - [jzhang38/TinyLlama](https://github.com/jzhang38/TinyLlama)
       - 参数量：1.1B，记录更新时间：2024-02-04
-    - [DLLXW/baby-llama2-chinese](https://github.com/DLLXW/baby-llama2-chinese) 
+    - [DLLXW/baby-llama2-chinese](https://github.com/DLLXW/baby-llama2-chinese)
       - 参数量：500M-1B, 记录更新时间：2024-05-21
-    - [charent/Phi2-mini-Chinese](https://github.com/charent/Phi2-mini-Chinese) 
+    - [charent/Phi2-mini-Chinese](https://github.com/charent/Phi2-mini-Chinese)
       - 参数量：200M, 记录更新时间：2024-07-11
-    - [Tongjilibo/build_MiniLLM_from_scratch](https://github.com/Tongjilibo/build_MiniLLM_from_scratch) 
+    - [Tongjilibo/build_MiniLLM_from_scratch](https://github.com/Tongjilibo/build_MiniLLM_from_scratch)
       - 参数量：200M, 记录更新时间：2025-03-23
-    - [jingyaogong/minimind](https://github.com/jingyaogong/minimind) 
+    - [jingyaogong/minimind](https://github.com/jingyaogong/minimind)
       - 参数量：26M，记录更新时间：2025-04-27
-    - (欢迎添加)...
 
 2. 大语言模型经典架构：
     - OPT
@@ -56,14 +58,12 @@ TODO List:
     - DeepSeek
     - MOE
     - NSA
-    - ...
 
 3. 底层语言大语言模型仓库：
     - [karpathy/llama2.c](https://github.com/karpathy/llama2.c)
     - [abetlen/llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
     - [li-plus/chatglm.cpp](https://github.com/li-plus/chatglm.cpp)
-    - ...
-  
+
 4. 从零开始构建大语言模型：
    - [stanford-CS336](https://github.com/stanford-cs336)
    - [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
